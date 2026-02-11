@@ -50,7 +50,7 @@ On a separate document (e.g., a Google Doc or a text file), answer the following
 - What will be the final value of alpha printed by the program? Why doesn't it change to 30?
 > **Answer:**
 >
-> The final value of alpha printed by the program is 20 and not 30 because the function processData uses a copy of the input for val and not the original value.
+> The final value of alpha printed by the program is 20 and not 30 because the function processData uses a copy of the input for val and not the original value. The modifications to the copy is local to the function. The function does not use or modify the actual val.
 
 - What will be the final value of beta printed by the program? Why does its value change?
 > **Answer:**
